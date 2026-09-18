@@ -1,0 +1,166 @@
+/*header section*/
+header{
+    text-align: center;
+    background-color: navy;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+    .j img{
+        display: block;
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+        max-width: 100%;
+    }
+
+/*navigations*/
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.main-nav li{
+    display: inline-block;
+    margin: 2px;
+}
+.main-nav {
+    background-color: lightseagreen;
+    padding: 1px;
+    border-radius: 8px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+.main-nav a:hover{
+    background-color: navy;
+}
+/*hero section*/
+.hero{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 1px;
+}
+.hero h2{
+    color: navy;
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.btn{
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding:0 ;
+}
+.btn:hover{
+    background-color: lightseagreen;
+}
+/*about section*/
+.about{
+    background-color: lightblue;
+    padding: 1px;
+}
+.about h2{
+    color: navy;
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+/*academics*/
+.academics{
+    background-color: lightblue;
+    padding: 1px;
+}
+.academics ul{
+margin: auto;
+list-style: none;
+max-width: 600px;
+} 
+.academics li{
+    background-color: white;
+    border-left: solid navy;
+    padding: 10px;
+    margin: 10px 0;
+}
+.academics h2{
+    color: navy;
+    text-align: center;
+}
+/*contact*/
+.contact{
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 1px;
+}
+.contact h2{
+    text-align: center;
+    color: navy;
+}
+.contact p{
+    text-align: center;
+}
+/*form*/
+form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #003d7a;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+/* Submit button */
+form button {
+    margin-top: 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: navy;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
