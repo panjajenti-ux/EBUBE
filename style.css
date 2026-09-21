@@ -26,7 +26,7 @@ header{
 }
 .main-nav li{
     display: inline-block;
-    margin: 5px;
+    margin: auto;
 }
 .main-nav {
     background-color: lightseagreen;
