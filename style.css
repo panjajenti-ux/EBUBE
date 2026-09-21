@@ -77,6 +77,15 @@ header{
 .about p{
     text-align: center;
 }
+.about img{
+    display: block;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    max-width: 100%;
+}
 /*academics*/
 .academics{
     background-color: lightblue;
@@ -163,4 +172,9 @@ form button:hover {
     text-align: center;
     padding: 20px;
     border-radius: 8px;
+}
+/*mobile images*/
+img{
+    max-width: 100%;
+    height: auto;
 }
