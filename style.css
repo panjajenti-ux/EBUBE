@@ -98,7 +98,7 @@ header{
 .academics ul{
 margin: auto;
 list-style: none;
-max-width: 500px;
+max-width: 600px;
 } 
 .academics li{
     background-color: white;
@@ -125,7 +125,7 @@ max-width: 500px;
 }
 /*form*/
 form {
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
