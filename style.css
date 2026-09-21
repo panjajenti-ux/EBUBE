@@ -93,7 +93,8 @@ header{
 /*academics*/
 .academics{
     background-color: lightblue;
-    padding: 1px;
+    padding: 25px;
+    box-sizing: border-box;
 }
 .academics ul{
 margin: auto;
@@ -104,7 +105,8 @@ max-width: 600px;
     background-color: white;
     border-left: solid navy;
     padding: 10px;
-    margin: 10px 0;
+    margin: 12px 0;
+    max-width: 500px;
 }
 .academics h2{
     color: navy;
@@ -126,9 +128,9 @@ max-width: 600px;
 /*form*/
 form {
     max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
     box-sizing: border-box;
 }
 
@@ -147,6 +149,8 @@ form textarea {
     border: 2px solid gray;
     border-radius: 5px;
     font-size: 16px;
+    box-sizing: border-box;
+    margin: 8px 0;
 }
 form input:focus,
 form textarea:focus {
