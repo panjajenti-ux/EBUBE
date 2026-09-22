@@ -38,7 +38,33 @@
                   <span class="icon">➕</span> Create Student
                 </button>
               </div>
-              
+              <div id="create-form" class="sub-panel hidden">
+                <h4>Add New Student Details</h4>
+                <form onsubmit="event.preventDefault();">
+                  <div class="input-field">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="e.g. Ebube Uche" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Student ID</label>
+                    <input type="text" placeholder="e.g. SEC-2026-042" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="e.g. ebubeuche@school.com" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Gender</label>
+                    <input type="text" placeholder="e.g. female/male" required>
+                  </div>
+                  <div class="input-field">
+                    <label>Class / Grade</label>
+                    <input type="text" placeholder="e.g. Form 4B" required>
+                  </div>
+                  <button type="submit" class="submit-btn">Submit Record</button>
+                </form>
+              </div>
+            </div>
               <!-- VIEW SECTION -->
               <section id="Portal" class="student">
                 <div class="action-group">
