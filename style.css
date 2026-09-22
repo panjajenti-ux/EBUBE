@@ -193,11 +193,15 @@ img{
 display: flex;
 justify-content: center;
 }
-.action-group form{
+.student form{
     max-width: 600px;
     max-width: 600px;
     width: 90%;
     margin: 30px auto;
     padding: 25px;
     box-sizing: border-box;
+}
+.student h4{
+    text-align: center;
+    color: navy;
 }
