@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Portal" class="student">
+    <div class="action-group">
+    <div id="create-form" class="sub-panel hidden">
+      <h4>Student Registration Details</h4>
+      <form onsubmit="event.preventDefault();">
+        <div class="input-field">
+          <label>Full Name</label>
+          <input type="text" placeholder="e.g. Ebube Uche" required>
+        </div>
+        <div class="input-field">
+          <label>Student ID</label>
+          <input type="number">
+        </div>
+        <div class="input-field">
+          <label>Email Address</label>
+          <input type="email" placeholder="e.g. ebubeuche@school.com" required>
+        </div>
+        <div class="input-field">
+          <label>Gender</label>
+          <select id="Gender" name="Gender"required>
+          <option value="">select gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          </select>
+        </div>
+        <div class="input-field">
+          <label>Class / Grade</label>
+          <input type="number">
+        </div>
+        <button type="submit" class="submit-btn">Submit Record</button>
+      </form>
+    </div>
+  </div>
+    </section>
+</body>
+</html>

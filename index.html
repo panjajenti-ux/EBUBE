@@ -32,51 +32,9 @@
 
     <create_student>           
               <!-- CREATE SECTION -->
-              <section id="Portal" class="student">
-              <div class="action-group">
-                <button class="btn btn-create" onclick="showform('create-form')">
-                  <span class="icon">➕</span> Create Student
-                </button>
-              </div>
-              <div id="create-form" class="sub-panel hidden">
-                <h4>Student Registration Details</h4>
-                <form onsubmit="event.preventDefault();">
-                  <div class="input-field">
-                    <label>Full Name</label>
-                    <input type="text" placeholder="e.g. Ebube Uche" required>
-                  </div>
-                  <div class="input-field">
-                    <label>Student ID</label>
-                    <input type="number">
-                  </div>
-                  <div class="input-field">
-                    <label>Email Address</label>
-                    <input type="email" placeholder="e.g. ebubeuche@school.com" required>
-                  </div>
-                  <div class="input-field">
-                    <label>Gender</label>
-                    <select id="Gender" name="Gender"required>
-                    <option value="">select gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    </select>
-                  </div>
-                  <div class="input-field">
-                    <label>Class / Grade</label>
-                    <input type="number">
-                  </div>
-                  <button type="submit" class="submit-btn">Submit Record</button>
-                </form>
-              </div>
-            </div>
+             <a href="create.html"><button>➕Create Student</button></a>
               <!-- VIEW SECTION -->
-              <section id="Portal" class="student">
-                <div class="action-group">
-                <button class="btn btn-view" onclick="toggleSection('view-actions')">
-                  <span class="icon">👁️</span> View Records
-                </button>  
-              </div>
-              </section>
+              <a href="view.html"><button>👁️View Student</button></a>    
     </create_student>
     <!-- Main Content -->
     <main>
