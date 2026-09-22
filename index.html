@@ -32,9 +32,33 @@
 
     <create_student>           
               <!-- CREATE SECTION -->
-             <a href="create.html"><button>➕Create Student</button></a>
+              <button type="button" onclick="showStudentForm()">➕Create Student</button>
+                <div class="action-group" id="studentform">
+                  <h4>Student Registration Details</h4>
+                  <form>
+                      <label>Full Name</label>
+                      <input type="text" placeholder="e.g. Ebube Uche" required>
+                      <label>Student ID</label>
+                      <input type="number">
+                      <label>Email Address</label>
+                      <input type="email" placeholder="e.g. ebubeuche@school.com" required>
+                      <label>Gender</label>
+                      <select id="Gender" name="Gender"required>
+                      <option value="">select gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      </select>
+                      <label>Class / Grade</label>
+                      <input type="number">
+                    <button type="submit" class="submit-btn">Submit Record</button>
+                  </form>
+              </div>
+<script>
+    function showStudentForm() {
+        document.getElementById("studentform").style.display = "block"
+    }
+</script>
               <!-- VIEW SECTION -->
-              <a href="view.html"><button>👁️View Student</button></a>    
     </create_student>
     <!-- Main Content -->
     <main>
@@ -84,7 +108,7 @@
                     <input type="text" id="name" name="name" placeholder="eg.Ebube Uche ">
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="eg.ebubeuche@gmai.com" required pl>
+                    <input type="email" id="email" name="email" placeholder="eg.ebubeuche@gmal.com" required pl>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5" placeholder="eg.is there sports club?" required></textarea>

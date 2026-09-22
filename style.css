@@ -192,6 +192,7 @@ img{
 .action-group{
 display: flex;
 justify-content: center;
+display: none;
 }
 .student form{
     max-width: 600px;
