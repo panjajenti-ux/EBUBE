@@ -29,37 +29,20 @@
             </ul>
         </div>
     </nav>
+    <a href="#about" class="btn">Learn More</a>
 
     <create_student>           
-              <!-- CREATE SECTION -->
-              <button type="button" onclick="showStudentForm()">➕Create Student</button>
-                <div class="action-group" id="studentform">
-                  <h4>Student Registration Details</h4>
-                  <form>
-                      <label>Full Name</label>
-                      <input type="text" placeholder="e.g. Ebube Uche" required>
-                      <label>Student ID</label>
-                      <input type="number">
-                      <label>Email Address</label>
-                      <input type="email" placeholder="e.g. ebubeuche@school.com" required>
-                      <label>Gender</label>
-                      <select id="Gender" name="Gender"required>
-                      <option value="">select gender</option>
-                      <option value="Male">Male</option>
-                      <option value="Female">Female</option>
-                      </select>
-                      <label>Class / Grade</label>
-                      <input type="number">
-                    <button type="submit" class="submit-btn">Submit Record</button>
-                  </form>
-              </div>
-<script>
-    function showStudentForm() {
-        document.getElementById("studentform").style.display = "block"
-    }
-</script>
-              <!-- VIEW SECTION -->
-    </create_student>
+        <!-- CREATE SECTION -->
+        <a href="submission.html"><button>➕Create Student</button></a>
+        
+       
+</create_student>
+<view-student>
+        <!-- VIEW SECTION -->
+       <a href="students.html"><button>👁️View Student</button></a>
+
+
+</view-student>
     <!-- Main Content -->
     <main>
 
@@ -69,7 +52,6 @@
                 <h2>Welcome to Iyunga Secondary School</h2>
                 <picture></picture>
                 <p>We prepare students for academic excellence, leadership, and responsible citizenship.</p>
-                <a href="#about" class="btn">Learn More</a>
             </div>
         </section>
 
@@ -120,6 +102,8 @@
 
     </main>
 
+
+  
     <!-- Footer Section -->
     <footer class="site-footer">
         <div class="container">
@@ -127,6 +111,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    
 </body>
 </html>

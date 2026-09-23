@@ -192,7 +192,6 @@ img{
 .action-group{
 display: flex;
 justify-content: center;
-display: none;
 }
 .student form{
     max-width: 600px;
@@ -202,7 +201,22 @@ display: none;
     padding: 25px;
     box-sizing: border-box;
 }
-.student h4{
+h4{
     text-align: center;
     color: navy;
+}
+
+table{
+width: 90%;
+border-collapse:collapse ;
+margin-top: 25px;
+}
+th, td{
+    border: 1px solid navy;
+    padding: 12px;
+    text-align: left;
+}
+th{
+    background-color: navy;
+    color: white;
 }

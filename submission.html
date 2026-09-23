@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <header>
+ <h1>IYUNGA SECONDARY SCHOOL</h1>
+ <nav>
+ <a href="index.html"><button>Home</button></a>
+ <a href="students.html"><button>View Students</button></a>
+ </nav>
+  </header>
+<div class="action-group" id="studentform">
+                <h4>Student Registration Details</h4>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="e.g. Ebube Uche" required>
+        <label>Student ID</label>
+        <input type="number">
+        <label>Email Address</label>
+        <input type="email" placeholder="e.g. ebubeuche@school.com" required>
+        <label>Gender</label>
+        <select id="Gender" name="Gender"required>
+        <option value="">select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </select>
+        <label>Class / Grade</label>
+        <input type="number">
+      <button type="button" id="addBtn">Submit Records</button>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
