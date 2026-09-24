@@ -236,3 +236,5 @@ function editStudent(id) {
     // Reload table
     location.reload();
 }
+
+ 
