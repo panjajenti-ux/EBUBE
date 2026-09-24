@@ -210,7 +210,7 @@ table{
 width: 100%;
 border-collapse:collapse ;
 margin-top: 25px;
-max-width: 500px;
+min-width: 500px;
 }
 th, td{
     border: 1px solid navy;
