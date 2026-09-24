@@ -207,9 +207,10 @@ h4{
 }
 
 table{
-width: 90%;
+width: 100%;
 border-collapse:collapse ;
 margin-top: 25px;
+max-width: 500px;
 }
 th, td{
     border: 1px solid navy;
@@ -220,3 +221,4 @@ th{
     background-color: navy;
     color: white;
 }
+.
